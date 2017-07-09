@@ -1,0 +1,21 @@
+button {
+    font-size: 15px;
+    width: 250px;
+}
+.grid {
+    display: flex;
+    width: 100%;
+    max-width: 960px;
+    min-width: 460px;
+    margin: 0 auto;
+    padding: 0 30px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+}
+.grid-item {
+    display: flex;
+    margin: 0 10px 20px;
+    flex: 1 1 calc(33.33% - 20px);
+
+}
